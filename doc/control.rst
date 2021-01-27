@@ -139,11 +139,13 @@ Nonlinear system support
 .. autosummary::
    :toctree: generated/
 
-   ~iosys.find_eqpt
-   ~iosys.linearize
-   ~iosys.input_output_response
-   ~iosys.ss2io
-   ~iosys.tf2io
+   find_eqpt
+   interconnect
+   linearize
+   input_output_response
+   ss2io
+   summing_junction
+   tf2io
    flatsys.point_to_point
 
 .. _utility-and-conversions:
@@ -154,6 +156,7 @@ Utility functions and conversions
    :toctree: generated/
 
     augw
+    bdschur
     canonical_form
     damp
     db2mag
@@ -162,6 +165,7 @@ Utility functions and conversions
     issiso
     issys
     mag2db
+    modal_form
     observable_form
     pade
     reachable_form
